@@ -1,4 +1,4 @@
-module github.com/gofiber/session/v2
+module github.com/gofiber/topchotipat/v2
 
 go 1.14
 

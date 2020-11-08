@@ -12,7 +12,7 @@ Special thanks to [@thomasvvugt](https://github.com/thomasvvugt) for helping wit
 ### Install
 ```
 go get -u github.com/gofiber/fiber/v2
-go get -u github.com/gofiber/session/v2
+go get -u github.com/gofiber/topchotipat/v2
 ```
 
 ### Signature
@@ -39,7 +39,7 @@ import (
 	"log"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/session/v2"
+	"github.com/gofiber/topchotipat/v2"
 )
 
 func main() {
@@ -75,12 +75,12 @@ import (
 	"log"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/session/v2"
-	"github.com/gofiber/session/v2/provider/memcache"
-	// "github.com/gofiber/session/v2/provider/mysql"
-	// "github.com/gofiber/session/v2/provider/postgres"
-	// "github.com/gofiber/session/v2/provider/redis"
-	// "github.com/gofiber/session/v2/provider/sqlite3"
+	"github.com/gofiber/topchotipat/v2"
+	"github.com/gofiber/topchotipat/v2/provider/memcache"
+	// "github.com/gofiber/topchotipat/v2/provider/mysql"
+	// "github.com/gofiber/topchotipat/v2/provider/postgres"
+	// "github.com/gofiber/topchotipat/v2/provider/redis"
+	// "github.com/gofiber/topchotipat/v2/provider/sqlite3"
 )
 
 func main() {

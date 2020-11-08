@@ -58,3 +58,8 @@ func (s *Store) Regenerate() error {
 	// https://github.com/fasthttp/session/blob/master/session.go#L205
 	return s.sess.core.Regenerate(s.ctx.Context())
 }
+
+// Count data by key
+func (s *Store) Count() error {
+	return nil
+}
